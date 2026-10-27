@@ -1,0 +1,14 @@
+# [theme]에 바로 색을 지정하면 라이트 전용 커스텀 테마가 되어 다크 모드가 꺼진다.
+# light / dark를 따로 지정해 시스템 설정(라이트/다크)을 그대로 따르게 한다.
+[theme.light]
+primaryColor = "#2E9E6B"
+baseRadius = "0.75rem"
+
+[theme.dark]
+primaryColor = "#3DBE84"
+baseRadius = "0.75rem"
+
+[client]
+toolbarMode = "minimal"
+# 에러가 나도 사용자 화면에 코드 위치·파일 경로를 보여주지 않는다 (자세한 내용은 서버 로그에만).
+showErrorDetails = "none"
